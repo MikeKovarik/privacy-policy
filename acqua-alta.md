@@ -38,6 +38,7 @@ To show live data, the app downloads public files directly from:
 - **images.weserv.nl**: a public image cache, used only when the comune's server refuses a
   webcam image
 - **MET Norway** (api.met.no): weather forecasts
+- **Google** (clients3.google.com): a connectivity check, so the app knows whether you are online
 
 Like any internet request, these send your IP address and basic technical details (such as your
 operating system) to those servers. The app sends them nothing else about you. Their own privacy
